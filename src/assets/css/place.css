@@ -1,0 +1,110 @@
+.place-nav{
+    display: flex;
+    margin-top: 40px;
+}
+.place-nav div{
+    margin: 10px 0 10px 5px;
+}
+.place-nav .left{
+    flex: 1;
+    position: relative;
+}
+.place-nav .left input{
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 30px;
+    text-indent: 30%;
+    border-radius: 17px;
+    background: white;
+}
+.place-nav .left img{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+.place-nav .right{
+    flex: 2;
+    margin-right: 5px;
+}
+.place-nav .right ul{
+    display: flex;
+}
+.place-nav .right li{
+    float: left;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.place-nav .right li:first-child{
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin-right: 5px;
+}
+.place-nav .right li:last-child{
+    flex: 2;
+    border: 1px solid #0078FF;
+    border-radius: 5px;
+}
+.place-nav .right li:last-child span{
+    float: left;
+    width: 50%;
+}
+.place-items{
+    background: #F7F7F7;
+    padding: 5px;
+}
+.subordinate-item{
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 140px;
+    position: relative;
+    background: white;
+    font-size: 12px;
+    padding: 10px;
+}
+.subordinate-item .middle{
+    display: flex;
+    margin-top: 5px;
+}
+.subordinate-item .middle p{
+    float: left;
+    flex: 1;
+    text-align: center;
+}
+.subordinate-item .middle span{
+    color: #0078FF;
+}
+.subordinate-item .message{
+    margin-left: 10px;
+}
+.subordinate-item .arrow-right{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.subordinate-item .message img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.subordinate-item .control{
+    display: flex;
+    margin-top: 10px;
+}
+.subordinate-item .control li{
+    flex: 1;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 2px;
+    border-radius: 5px;
+    background: #0078FF;
+    color: white;
+}

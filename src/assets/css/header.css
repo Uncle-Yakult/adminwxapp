@@ -1,0 +1,76 @@
+.header{
+    height: 220px;
+    background-size: 100% 100%;
+}
+.header .top{
+    padding: 10px 10px 0;
+    height: 30px;
+    color: #fff;
+}
+.header .top img{
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.header .bottom{
+    padding: 0 5px 5px;
+}
+.header .bottom li{
+    text-indent: 0.8em;
+    border-radius: 10px;
+    /*border: 1px solid black;*/
+    padding: 5px 0 0 0;
+    width: 46%;
+    float: left;
+    height: 70px;
+    margin: 10px 5px 0;
+    background: #0090FF;
+}
+.header .bottom li:first-child{
+    background: #0078FF;
+}
+.header .bottom li p:last-child{
+    font-size: 12px;
+}
+.header .bottom li:nth-child(2),
+.header .bottom li:nth-child(4) {
+    margin-right: 0 !important;
+}
+.header .bottom li .total{
+    float: right;
+    line-height: 15px;
+    font-size: 13px;
+    margin-right: 5px;
+    border: 1px solid black;
+    text-align: center;
+    text-indent: 0;
+    padding: 0 2px;
+    border-radius: 5px;
+    background: white;
+}
+.header .bottom li .icon {
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.header .bottom li .icon-cny {
+    background: url("../image/icon/cny.png");
+}
+.header .bottom li .icon-yonghu {
+    background: url("../image/icon/yonghu.png");
+}
+.header .bottom li .icon-dingwei {
+    background: url("../image/icon/dingwei.png");
+}
+.header .bottom li .icon-flag {
+    background: url("../image/icon/flag.png");
+}
+.header .bottom li .count {
+    float: right;
+    text-indent: 0;
+}
+.header .bottom h2{
+    text-indent: 1em;
+    font-weight: 300;
+}

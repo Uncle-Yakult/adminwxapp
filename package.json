@@ -1,0 +1,42 @@
+{
+  "name": "yajulink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "better-scroll": "^1.15.2",
+    "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.10.1",
+    "js-cookie": "^2.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "qs": "^6.7.0",
+    "v-distpicker": "^1.2.1",
+    "vconsole": "^3.3.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "vuex-i18n": "^1.11.0",
+    "vux": "^2.9.4",
+    "vux-loader": "^1.2.9"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

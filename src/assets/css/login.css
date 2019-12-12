@@ -1,0 +1,50 @@
+.login{
+    margin: 20% 30px 0;
+}
+.login .input h2{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.login .title{
+    padding-bottom: 70px;
+}
+.login .input input{
+    width: 80%;
+    padding: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.login .denglu{
+    display: block;
+    text-align: center;
+    width: 70%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 15px;
+    margin: 30px auto;
+    color: white;
+    background:#0078FF;
+    border-radius: 15px;
+    position: relative;
+    z-index: 5;
+}
+.login .message{
+    margin:0 20px;
+}
+.login .message li{
+    float: left;
+    font-size: 12px;
+    margin: 0 10px;
+    text-align: center;
+}
+.login .reset,
+.login .history{
+    color: #0090FF;
+}
+.login ul{
+    display: flex;
+}
+.login ul li{
+    flex: 1;
+}

@@ -1,0 +1,70 @@
+.list1{
+    display: flex;
+    border: 1px solid #0078FF;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 45px;
+
+}
+.list1 li{
+    float: left;
+    flex: 1;
+    border-left: 1px solid #0078FF;
+}
+.list1 li:first-child{
+    border-left: none;
+}
+.search{
+    margin-top: 10px;
+    position: relative;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.search img{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    left: 25px;
+}
+.search input{
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    width: 55%;
+    text-indent: 50px;
+    height: 30px;
+    border-radius: 17px;
+}
+.search .select{
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 35%;
+    height: 28px;
+    line-height: 30px;
+    position: relative;
+}
+.icon-down{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    border: 8px solid transparent;
+    border-top-color: #333;
+}
+.search input:focus{
+    text-indent:32px;
+}
+select{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    text-indent: 0.5em;
+}
+select:focus,
+select:active{
+    border: 1px solid #ccc;
+
+}
